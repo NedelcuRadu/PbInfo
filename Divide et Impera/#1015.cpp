@@ -1,4 +1,4 @@
-```cpp
+
 #include <iostream>
 using namespace std;
 
@@ -20,4 +20,3 @@ int main() {
     cout << suma(a,1,n);
          return 0;
 }
-```
