@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+ifstream in("prosir.in");
+ofstream out("prosir.out");
+
+int main() {
+    char s[256];
+    in.getline(s, 256);
+    int i = 0;
+    while(s[i + 1] != '.') {
+        if(s[i + 1] == ' ')
+            if(s[i] != ' ')
+                s[i] = '5';
+        i++;
+    }
+    s[i] = '5';
+    out << s;
+
+    return 0;
+}
