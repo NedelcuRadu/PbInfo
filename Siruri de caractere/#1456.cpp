@@ -29,6 +29,4 @@ int main() {
     else
         cout << "NU";
     return 0;
-
-    return 0;
 }
