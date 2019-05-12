@@ -17,7 +17,7 @@ int main() {
         i++;
     }
     for(int i = 0; i < strlen(s); i++)
-        if(s[i] != '#')
+        if(s[i] != '#') //Nu e caps
             out << s[i];
     return 0;
 }
