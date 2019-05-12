@@ -10,10 +10,10 @@ int main() {
     int k = 0;
     while(i < strlen(s)) {
         if(s[i] == '#')
-            k = (k + 1) % 2;
+            k = (k + 1) % 2; //Caps is on
         else if(s[i] != ' ')
             if(k == 1)
-                s[i] = s[i] - 32;
+                s[i] = s[i] - 32; //Litera mare
         i++;
     }
     for(int i = 0; i < strlen(s); i++)
